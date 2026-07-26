@@ -1,5 +1,5 @@
 <img src="./assets/estrela.svg">
-# Hi there! 👋 I'm Sara Alves
+I'm Sara Alves
 
 🎓 Systems Analysis and Development student.
 
