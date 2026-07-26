@@ -161,32 +161,16 @@ repeatCount="indefinite"/>
 <!-- Texto principal -->
 
 <text 
-x="500"
-y="140"
+x="550"
+y="170"
 fill="white"
-font-size="45"
+font-size="75"
 font-family="Orbitron"
 text-anchor="middle"
 font-weight="bold">
 
-Sara Alves
+    Hi There!     👋
 
 </text>
-
-
-<!-- Subtítulo -->
-
-<text 
-x="500"
-y="185"
-fill="#a78bfa"
-font-size="22"
-font-family="Fira Code"
-text-anchor="middle">
-
-Systems Analysis and Development
-
-</text>
-
 
 </svg>
