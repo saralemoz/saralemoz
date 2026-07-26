@@ -1,15 +1,192 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
 
-<rect width="300" height="300" fill="black"/>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700');
+</style>
 
-<circle cx="150" cy="50" r="5" fill="white">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=FiraCode:wght@700');
+</style>
 
+<!-- Fundo do espaço -->
+<rect width="1000" height="300" fill="#050816"/>
+
+
+<!-- Nebulosa -->
+<ellipse cx="500" cy="150" rx="350" ry="120" fill="#4c1d95" opacity="0.18">
+
+    <animate
+    attributeName="rx"
+    values="350;400;350"
+    dur="8s"
+    repeatCount="indefinite"/>
+
+</ellipse>
+
+
+<!-- PLANETA PRINCIPAL -->
+
+<!-- Corpo -->
+<circle cx="220" cy="160" r="65" fill="#7c3aed"/>
+
+<!-- Sombra do planeta -->
+<path 
+d="M170 120 Q220 80 270 120 Q220 200 170 120"
+fill="#4c1d95"
+opacity="0.6"/>
+
+
+<!-- Luz do planeta -->
+<circle cx="195" cy="135" r="20" fill="#c4b5fd" opacity="0.5"/>
+
+
+<!-- Anel -->
+<ellipse
+cx="220"
+cy="160"
+rx="100"
+ry="25"
+fill="none"
+stroke="#ddd6fe"
+stroke-width="5"
+opacity="0.8"/>
+
+
+<!-- Lua orbitando -->
+
+<circle cx="220" cy="160" r="10" fill="#e5e7eb">
+
+    <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 220 160"
+    to="360 220 160"
+    dur="8s"
+    repeatCount="indefinite"/>
+
+</circle>
+
+
+
+<!-- ESTRELAS PISCANDO -->
+
+
+<circle cx="80" cy="50" r="3" fill="white">
 <animate
 attributeName="opacity"
-values="0;1;0"
+values="0.2;1;0.2"
 dur="2s"
+repeatCount="indefinite"/>
+</circle>
+
+
+<circle cx="350" cy="60" r="4" fill="white">
+<animate
+attributeName="opacity"
+values="1;0.3;1"
+dur="3s"
+repeatCount="indefinite"/>
+</circle>
+
+
+<circle cx="520" cy="40" r="2" fill="white">
+<animate
+attributeName="opacity"
+values="0.1;1;0.1"
+dur="1.5s"
+repeatCount="indefinite"/>
+</circle>
+
+
+<circle cx="800" cy="80" r="3" fill="white">
+<animate
+attributeName="opacity"
+values="0.3;1;0.3"
+dur="2.5s"
+repeatCount="indefinite"/>
+</circle>
+
+
+<circle cx="900" cy="220" r="4" fill="white">
+<animate
+attributeName="opacity"
+values="0.2;1;0.2"
+dur="3s"
+repeatCount="indefinite"/>
+</circle>
+
+
+
+<!-- ESTRELAS PEQUENAS -->
+
+<circle cx="130" cy="230" r="2" fill="white"/>
+<circle cx="450" cy="200" r="2" fill="white"/>
+<circle cx="650" cy="150" r="2" fill="white"/>
+<circle cx="750" cy="250" r="2" fill="white"/>
+
+
+
+<!-- ESTRELA CADENTE -->
+
+<circle cx="0" cy="20" r="4" fill="white">
+
+    <animate
+    attributeName="cx"
+    from="0"
+    to="1000"
+    dur="5s"
+    repeatCount="indefinite"/>
+
+    <animate
+    attributeName="cy"
+    from="20"
+    to="250"
+    dur="5s"
+    repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Partículas flutuando -->
+
+<circle cx="600" cy="250" r="3" fill="#a78bfa">
+
+<animate
+attributeName="cy"
+values="250;180;250"
+dur="4s"
 repeatCount="indefinite"/>
 
 </circle>
+
+<!-- Texto principal -->
+
+<text 
+x="500"
+y="140"
+fill="white"
+font-size="45"
+font-family="Orbitron"
+text-anchor="middle"
+font-weight="bold">
+
+Sara Alves
+
+</text>
+
+
+<!-- Subtítulo -->
+
+<text 
+x="500"
+y="185"
+fill="#a78bfa"
+font-size="22"
+font-family="Fira Code"
+text-anchor="middle">
+
+Systems Analysis and Development
+
+</text>
+
 
 </svg>
