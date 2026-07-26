@@ -2,7 +2,7 @@
 
 # 👩🏻‍💻 I'm Sara Alves
 
-🎓 Systems Analysis and Development student.
+### 🎓 Systems Analysis and Development student.
 
 I'm passionate about technology and software development. Software development goes beyond writing code. It requires understanding problems, identifying user needs, and building solutions that create value, solve real-world challenges, and make a positive impact on people's lives.
 
@@ -81,7 +81,7 @@ Currently expanding my knowledge in Full Stack Development, I'm looking for oppo
 <br/>
 <br/>
 
---- 
+---
 
 ### 🌐 Connect with me
 
