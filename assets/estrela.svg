@@ -1,0 +1,15 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="300" height="300" fill="black"/>
+
+<circle cx="150" cy="50" r="5" fill="white">
+
+<animate
+attributeName="opacity"
+values="0;1;0"
+dur="2s"
+repeatCount="indefinite"/>
+
+</circle>
+
+</svg>
